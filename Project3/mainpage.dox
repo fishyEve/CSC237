@@ -1,0 +1,14 @@
+/*! 
+ \mainpage The WordList.h inheritance hierarchy
+ \section Look -ˋˏ✄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+ \n
+  Welcome to my web area! Here you will find descriptions for a lot of files. WordList.h stands
+  at the top of our inheritance hierarchy. WordDataList.h, WordCList.h, and WordVectorList.h all inherit from
+  WordList.h. WordDataList.h is a container for WordData objects, WordDataList.cpp is the implementation. WordCList.h 
+  is a container for CLinkedList.h objects (basically, circular linked lists with WordData objects), WordCList.cpp is the implementation. 
+  Finally, WordVectorList.h is a container for vectors (which also contain WordData objects). WordVectorList.cpp is the implementation. 
+  The definition of a WordData object is laid out in WordData.h, WordData.cpp is the implementation. Finally, we have app.cpp, the 
+  application that is menu driven and allows the user, you, to select from several different menu options- each option printing one 
+  of the containers either iteratively or recursively. 
+  \n
+ */
